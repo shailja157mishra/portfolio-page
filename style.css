@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #999;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family:'Arial Narrow Bold';
+    color:chocolate;
+  }
+  h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family:'Arial Narrow Bold';
+    color:chartreuse;
+  }
+  h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family:'Arial Narrow Bold';
+    color:chartreuse;
+
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .profile-image {
+    flex: 1 0 150px; /* Adjust the width of the image container */
+    margin-right: 20px;
+    align-self: flex-start;
+  }
+  
+  .profile-image img {
+    max-width: 30%;
+    height: 300px;
+    display: block;
+    border-radius: 0%;
+    border: 3px solid red;
+    width: 100%; /* Make the image fill the container */
+  }
+  
+  .description {
+    flex: 1 0 300px;
+    font-family: "Arial", sans-serif;
+    color: yellow;
+    line-height: 1.5;
+  }
+  
+  .description h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:brown;
+    font-family:'Verdana';
+  }
+  
+  .description p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+  
+  .description ul {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .description li{
+      font-family: "Verdana", sans-serif;
+      color: white;
+      font-size: 20px;
+    }
+  
+  .project {
+    margin-bottom: 30px;
+
+  }
+  
+  .project h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS';
+    color: blue;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+    font-family:serif;
+    color: rosybrown;
+    font-size:30px;
+  }
+  .project img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    border: 5px solid #333;
+    margin-bottom: 10px;
+  }
+  #contact{
+    font-size:30px;
+    font-family :'Segoe UI';
+    color:yellowgreen;
+    }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #999;
+  }
+  
